@@ -1,27 +1,18 @@
-//declaração de variáveis
-var nome = "Prof. Madson";
-var sobreNome = "Aguiar Rodrigues";
+var nome = "Desenvolvedor Gustavo";
+var sobreNome = "Gomes de Oliveira";
 
 console.log("Instrução solta em um arquivo JS");
 
-//declaração de função
-function exibirNomeConsole(){
+function exibirNOmeConsole(){
     console.log("exibir nome: " + nome);
 }
+exibirNOmeConsole();
 
 function exibirNomeCompleto(){
-    console.log("Professor, nome completo: " + nome + " " + sobreNome);
+    console.log("Desenvolvedor, nome completo " + nome + sobreNome);
 }
-
 function eventoClick(){
-    alert("Você clicou em um botão!");
+    alert("Você cliccou em um botão");
 }
-
-//Chamadas de função
-exibirNomeConsole();
-
-
-
-
-
-
+//chamar de funcao
+exibirNOmeConsole();
